@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body bgcolor="blue">
+
+    
+
+<div class="main">
+    <div class="parent">
+        <h1>Quiz App</h1>
+    </div>
+    <div class="questionNo">
+        <p>Question No <span id="currentquestion">2</span>/ <span id="totalquestion">10</span></p>
+    </div>
+    <div id="question">
+        <h2>Question_ _ _ _ _ _ _ __ </h2>
+    </div>
+    <div class="container">
+        <div class="row" id="displayoption">
+            <div class="col-6 p-3">
+                <button onclick="">option1</button>
+            </div>
+            <div class="col-6 p-3">
+                <button>option2</button>
+            </div>
+            <div class="col-6 p-3">
+                <button>option3</button>
+            </div>
+            <div class="col-6 p-3">
+                <button>option4</button>
+            </div>
+        </div>
+        <button id="next" onclick="next()">Next</button>
+    </div>    
+
+</div>
+</body>
+<script src="app.js"></script>
+</html>
